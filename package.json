@@ -1,5 +1,20 @@
 {
   "name": "telescope",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "dependencies": {
+    "node-fetch": "^3.3.0",
+    "ws": "^8.13.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
+{
+  "name": "telescope",
   "version": "0.1.5",
   "description": "Simple tool to scan and find domain's bug",
   "main": "app/index.js",
